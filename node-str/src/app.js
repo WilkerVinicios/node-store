@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 // Conexão ao banco
-mongoose.connect('mongodb://wilker:140396@localhost:27017/admin')
+mongoose.connect('mongodb://wilker:140396@localhost:27017/admin');
 
 // Carregar as Rotas
 const indexRoute = require('./routes/index-route');
